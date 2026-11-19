@@ -1,20 +1,15 @@
 {
   "name": "fk-lounge",
   "version": "1.0.0",
-  "description": "FK Lounge — static site for fklounge.com",
+  "private": true,
+  "description": "FK Lounge — open-air lounge at Dome Pillar 2, Accra. Static site.",
   "main": "server.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "start": "node server.js",
     "dev": "node server.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "dependencies": {
-    "puppeteer-core": "^25.18.1"
-  },
-  "engines": {
-    "node": ">=22"
   }
 }
